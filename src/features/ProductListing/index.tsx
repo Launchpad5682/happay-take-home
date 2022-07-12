@@ -1,15 +1,15 @@
 import { ProductCard } from "../../common";
-import { useProductListing } from "./container/useProductListing";
+import { useCart } from "../../hooks/useCart";
 import { Product } from "./productsSlice";
 
 export const ProductListing = () => {
   const {
-    products,
     productInCart,
     addToCartHandler,
     increaseQuantityHandler,
     decreaseQuantityHandler,
-  } = useProductListing();
+    products,
+  } = useCart();
 
   return (
     <div className="grid grid-cols-1 px-5 py-5 lg:px-0 md:grid-cols-2 lg:grid-cols-3 gap-x-24 gap-y-10">
