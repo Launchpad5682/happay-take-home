@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Libraries used
+* React Router
+* Redux toolkit 
+* Tailwind CSS 
+
 ## Available Scripts
 
 In the project directory, you can run:
